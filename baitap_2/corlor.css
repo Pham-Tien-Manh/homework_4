@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 400px;
+    overflow-x: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    height: 300px;
+    width: 400px;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.table_list {
+    color: #fff;
+    font-weight: bold;
+}
+
+.table_icon {
+    font-size: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #2ecc71;
+}
+
+tr:nth-child(odd) {
+    background-color: #3498db;
+}
+
+tr[class="table_list"] {
+    background-color: #1abc9c;
+}
+
+tr:last-child {
+    background-color: #1abc9c;
+}
+
+tr:nth-child(3) {
+    background-color: #1abc9c;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+td {
+    padding: 0 10px;
+}
+
+.coin {
+    height: 8px;
+    width: 8px;
+    margin: 1px 6px;
+}
+
